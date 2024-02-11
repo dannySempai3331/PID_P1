@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw
 import random
+
 file='Paisaje.jpg'
 img = Image.open(file)
 C1 = (240,120)
@@ -21,6 +22,7 @@ else:
             
             draw.point((x, y), (red, green, blue))
     img.show()
+    
     
 
         
